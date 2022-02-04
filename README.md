@@ -17,6 +17,12 @@ Free cloud account имеет следующие ограничения:
 
 Для выполнения задания - пришлите скриншот меню Projects.
 
+### Решение  
+
+![img](https://github.com/rdegtyarev/mnt-10-05/blob/main/01.PNG)
+
+---
+
 ## Задание 2
 
 Создайте python проект и нажмите `Generate sample event` для генерации тестового события.
