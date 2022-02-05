@@ -19,7 +19,7 @@ Free cloud account имеет следующие ограничения:
 
 ### Решение  
 
-![img](https://github.com/rdegtyarev/mnt-10-05/blob/main/01.PNG)
+![01](https://github.com/rdegtyarev/mnt-10-05/blob/main/01.PNG)
 
 ---
 
@@ -33,6 +33,12 @@ Free cloud account имеет следующие ограничения:
 
 Для выполнения задание предоставьте скриншот `Stack trace` из этого события и список событий проекта, 
 после нажатия `Resolved`.
+
+### Решение
+
+![02](https://github.com/rdegtyarev/mnt-10-05/blob/main/02.PNG)
+
+---
 
 ## Задание 3
 
@@ -54,6 +60,12 @@ Free cloud account имеет следующие ограничения:
 Дополнительно поэкспериментируйте с правилами алёртинга. 
 Выбирайте разные условия отправки и создавайте sample events. 
 
+### Решение
+
+![03](https://github.com/rdegtyarev/mnt-10-05/blob/main/03.PNG)
+
+---
+
 ## Задание повышенной сложности
 
 Создайте проект на ЯП python или GO (небольшой, буквально 10-20 строк), подключите к нему sentry SDK и отправьте несколько тестовых событий.
@@ -62,10 +74,29 @@ Free cloud account имеет следующие ограничения:
 Для выполнения задания пришлите скриншот меню issues вашего проекта и 
 пример кода подключения sentry sdk/отсылки событий.
 
----
+### Решение
 
-### Как оформить ДЗ?
+Создал проект на vue js
 
-Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
+- Блок подключения
+```js
+Sentry.init({
+    app,
+    dsn: "https://****dsn проекта в sentry****",
+    integrations: [
+      new BrowserTracing({
+        routingInstrumentation: Sentry.vueRouterInstrumentation(router),
+      }),
+    ],
+    tracesSampleRate: 1.0,
+  });
+```
 
+Пример ошибки:
+![04](https://github.com/rdegtyarev/mnt-10-05/blob/main/04.PNG)
+
+Дашборды мониторинга:
+![05](https://github.com/rdegtyarev/mnt-10-05/blob/main/05.PNG)  
+
+![06](https://github.com/rdegtyarev/mnt-10-05/blob/main/06.PNG)
 ---
