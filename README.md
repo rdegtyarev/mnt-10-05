@@ -76,10 +76,20 @@ Free cloud account имеет следующие ограничения:
 
 ### Решение
 
-Создал проект на vue js
+Решил чуть больше заморочиться, потестировал функционал на проекте на vue js.
+Установил библиотеки @sentry/tracing, @sentry/vue.
 
-- Блок подключения
+- main.js  
+
 ```js
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+
+import * as Sentry from "@sentry/vue";
+import { BrowserTracing } from "@sentry/tracing";
+
+const app = createApp(App).use(router).mount('#app')
 Sentry.init({
     app,
     dsn: "https://****dsn проекта в sentry****",
