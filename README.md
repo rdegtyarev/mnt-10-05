@@ -19,7 +19,7 @@ Free cloud account имеет следующие ограничения:
 
 ### Решение  
 
-![01](https://github.com/rdegtyarev/mnt-10-05/blob/main/01.PNG)
+![01](https://github.com/rdegtyarev/mnt-10-05/blob/main/01.png)
 
 ---
 
@@ -36,7 +36,7 @@ Free cloud account имеет следующие ограничения:
 
 ### Решение
 
-![02](https://github.com/rdegtyarev/mnt-10-05/blob/main/02.PNG)
+![02](https://github.com/rdegtyarev/mnt-10-05/blob/main/02.png)
 
 ---
 
@@ -62,7 +62,7 @@ Free cloud account имеет следующие ограничения:
 
 ### Решение
 
-![03](https://github.com/rdegtyarev/mnt-10-05/blob/main/03.PNG)
+![03](https://github.com/rdegtyarev/mnt-10-05/blob/main/03.png)
 
 ---
 
@@ -93,10 +93,10 @@ Sentry.init({
 ```
 
 Пример ошибки:
-![04](https://github.com/rdegtyarev/mnt-10-05/blob/main/04.PNG)
+![04](https://github.com/rdegtyarev/mnt-10-05/blob/main/04.png)
 
 Дашборды мониторинга:
-![05](https://github.com/rdegtyarev/mnt-10-05/blob/main/05.PNG)  
+![05](https://github.com/rdegtyarev/mnt-10-05/blob/main/05.png)  
 
-![06](https://github.com/rdegtyarev/mnt-10-05/blob/main/06.PNG)
+![06](https://github.com/rdegtyarev/mnt-10-05/blob/main/06.png)
 ---
